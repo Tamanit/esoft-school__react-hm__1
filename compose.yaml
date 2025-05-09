@@ -1,0 +1,12 @@
+services:
+  node:
+
+    build:
+      context: .
+      dockerfile: docker/node/Dockerfile
+    volumes:
+      - ./app/src:/app/src
+      - ./app/public:/app/public
+      - ./app/package.json:/app/package.json
+    ports:
+      - '8080:8080'
