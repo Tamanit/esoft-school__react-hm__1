@@ -1,4 +1,4 @@
-import Container from "./componentBucket/Container/Container.jsx";
+import Container from "./componentBucket/Container.jsx";
 
 
 export default () => {
